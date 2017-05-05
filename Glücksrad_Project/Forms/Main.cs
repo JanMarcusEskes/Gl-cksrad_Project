@@ -65,6 +65,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Trägt die Gesamtkonten ein und "Verschlüsselt" den Begriff
+        /// (Jenny und Marvin)
         /// </summary>
         private void Verschluesseln()
         {
@@ -81,7 +82,8 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Deaktiviert alle Buttons in der gpbConsonants GroupBox
-        /// </summary>
+        /// (Jenny und Marvin)
+        /// </summary> 
         private void TurnNeeded()
         {
             foreach (Control button in gpbConsonants.Controls)
@@ -89,6 +91,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Löst aus, wenn ein Konsonant oder Sonderzeichen gedrückt wird
+        /// (Jan-Marcus)
         /// </summary>
         private void Letter_Click(object sender, EventArgs e)
         {
@@ -104,6 +107,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Löst aus wenn der "Drehen" Button gedrückt wird
+        /// (Jan-Marcus)
         /// </summary>
         private void btnTwist_Click(object sender, EventArgs e)
         {
@@ -118,6 +122,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Löst aus, wenn ein Vokal gedrückt wird
+        /// (Jan-Marcus)
         /// </summary>
         private void LetterVocal_Click(object sender, EventArgs e)
         {
@@ -140,6 +145,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Löst aus wenn "Begriff raten" gedrückt wurde
+        /// (Jan-Marcus)
         /// </summary>
         private void btnGuessTerm_Click(object sender, EventArgs e)
         {
@@ -160,6 +166,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// "Dreht" das Glücksrad und gibt das Ergebnis als string zurück
+        /// (Jan-Marcus)
         /// </summary>
         private string twist()
         {
@@ -200,6 +207,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Gibt "Sternchen" in "lblTerm" aus
+        /// (Jenny und Marvin)
         /// </summary>
         private void output()
         {
@@ -212,6 +220,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Prüft, ob der eingegebene Buchstabe im Begriff vorkommt
+        /// (Jenny und Marvin)
         /// </summary>
         private void checkLetter()
         {
@@ -256,6 +265,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Setzt das Startguthaben des Rundenkontos fest
+        /// (Jenny)
         /// </summary>
         private void startMoney()
         {
@@ -266,6 +276,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Schreibt die Rundenkonten in txtRoundRating
+        /// (Jenny)
         /// </summary>
         private void RoundRating()
         {
@@ -278,6 +289,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Überweist das Rundenkonto des Gewinners auf sein Gesamtkonto und gibt diese dann neu aus
+        /// (Jenny und Marvin)
         /// </summary>
         private void guthaben()
         {
@@ -297,6 +309,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Fragt bei einem Extradreh nach selbigem, fragt dann den Spieler ab und setzt das lblPlayerTurn
+        /// (Jenny)
         /// </summary>
         private void nextPlayer()
         {
@@ -344,6 +357,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Prüft ob beim drehen des Glücksrades ein "Spezialfeld" ausgewählt wurde und wenn ja welches
+        /// (Jenny und Marvin)
         /// </summary>
         private void turn()
         {
@@ -377,6 +391,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Dient zum "Reset" der Anwendung, wenn eine Runde abgeschlossen ist
+        /// (Jenny)
         /// </summary>
         private void nextGame()
         {
@@ -408,6 +423,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Reaktiviert alle Buttons außer denen in consonantsActivaded
+        /// (Jenny)
         /// </summary>
         private void checkTurn()
         {
@@ -433,6 +449,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Prüft ob über 6 Runden gespielt wurden und gibt, wenn ja den Gewinner aus
+        /// (Jenny und Marvin
         /// </summary>
         private void checkGameNo()
         {
@@ -452,6 +469,7 @@ namespace Glücksrad_Project
         }
         /// <summary>
         /// Löst aus wenn ein richtiger Buchstabe erkannt wurde und addiert die erdrehten Punkte
+        /// (Jenny)
         /// </summary>
         private void LetterRight()
         {
@@ -460,5 +478,6 @@ namespace Glücksrad_Project
             Zugkonto = 0;
             RoundRating();
         }
+        //Dokumentation Jan-Marcus
     }
 }

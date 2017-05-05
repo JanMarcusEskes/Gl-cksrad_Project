@@ -113,5 +113,6 @@ namespace Glücksrad_Project
             Wort = categoryMusic[zufall];
             Close();
         }
+        //Dies haben wir zu dritt in einer Stunde erstellt
     }
 }

@@ -64,7 +64,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Source\Player.cs" />
     <EmbeddedResource Include="Forms\Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
     </EmbeddedResource>
